@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=Inter:wght@300&family=Merriweather&display=swap');
+
+
+*,*::before,*::after{
+    margin: 0rem;
+    padding: 0rem;
+    font-size: 62.5%;
+}
+.title{
+    text-align: center;
+    font-family: 'Cinzel', serif;
+}
+.title h1{
+    font-size: 4rem;
+    padding:0px;
+    padding-top: 20px;
+}
+.grid{
+    width: 90%;
+    margin: 30px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+}
+.card1{
+    padding: 10px 20px;
+    border: 1px solid rgb(0, 0, 0,0.35);
+    box-shadow: 4px 4px 10px rgba(0,0,0,0.35),
+    -4px -4px 10px rgba(0,0,0,0.35);
+}
+.logo1{
+    height: 255px;
+    width: 100%;
+    box-shadow: 4px 4px 10px rgba(67, 70, 253, 0.25),
+    -4px -4px 10px rgba(253, 67, 67, 0.25);
+    transition: 200ms ease-in-out;
+}
+.logo1:hover{
+    transform: scale(1.1);
+}
+h1{
+    font-family: 'Cinzel', serif;
+    padding: 10px 0px;
+    font-size: 3rem;
+}
+p{
+    font-family: 'Inter', sans-serif;
+    padding: 0px 0px 8px 0px;
+    font-size: 2rem;
+}
+.cart{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0px;
+}
+.cart span {
+    font-family: 'Cinzel', serif;
+    font-size: 2.2rem;
+}
+.cart button{
+    font-family: 'Merriweather', serif;
+    font-size: 2rem;
+    background-color: seagreen;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+    box-shadow: 4px 4px 10px rgba(0,0,0,0.25),4px 4px 10px rgba(0,0,0,0.25),;
+}
+@media (min-width: 319px) and (max-width: 426px) {
+    .grid{
+        display: block;
+        gap: 40px;
+        margin: 30px auto;
+        width: 85%;
+    }
+    .title h1{
+        font-size: 3rem;
+        padding:0px;
+        padding-top: 20px;
+    }
+    .card1{
+        margin-bottom: 30px;
+        padding: 10px 10px;
+        border: 1px solid rgb(0, 0, 0,0.35);
+        box-shadow: 4px 4px 10px rgba(0,0,0,0.35),
+        -4px -4px 10px rgba(0,0,0,0.35);
+    }
+    .logo1{
+        height: 185px;
+        width: 100%;
+        box-shadow: 4px 4px 10px rgba(67, 70, 253, 0.25),
+        -4px -4px 10px rgba(253, 67, 67, 0.25);
+        transition: none;
+    }
+    .logo1:hover{
+        transform: none;
+    }
+    h1{
+        font-family: 'Cinzel', serif;
+        padding: 10px 0px;
+        font-size: 2.3rem;
+    }
+    p{
+        font-family: 'Inter', sans-serif;
+        padding: 0px 0px 8px 0px;
+        font-size: 1.5rem;
+    }
+    .cart span {
+        font-family: 'Cinzel', serif;
+        font-size: 1.8rem;
+    }
+    .cart button{
+        font-family: 'Merriweather', serif;
+        font-size: 1.5rem;
+        background-color: seagreen;
+        color: white;
+        border-radius: 5px;
+        padding: 5px;
+        cursor: pointer;
+        box-shadow: 4px 4px 10px rgba(0,0,0,0.25),4px 4px 10px rgba(0,0,0,0.25),;
+    }
+}
+@media (min-width: 427px) and (max-width: 768px){
+    .grid{
+        width: 90%;
+        margin: 30px auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 25px;
+    }
+    .card1{
+        /* margin-bottom: 20px; */
+        padding: 10px 10px;
+        border: 1px solid rgb(0, 0, 0,0.35);
+        box-shadow: 4px 4px 10px rgba(0,0,0,0.35),
+        -4px -4px 10px rgba(0,0,0,0.35);
+    }
+    .logo1{
+        height: 200px;
+        width: 100%;
+        box-shadow: 4px 4px 10px rgba(67, 70, 253, 0.25),
+        -4px -4px 10px rgba(253, 67, 67, 0.25);
+        transition: none;
+    }
+    .logo1:hover{
+        transform: none;
+    }
+    h1{
+        font-family: 'Cinzel', serif;
+        padding: 10px 0px;
+        font-size: 2.4rem;
+    }
+    p{
+        font-family: 'Inter', sans-serif;
+        padding: 0px 0px 8px 0px;
+        font-size: 1.5rem;
+    }
+    .cart span {
+        font-family: 'Cinzel', serif;
+        font-size: 1.8rem;
+    }
+    .cart button{
+        font-family: 'Merriweather', serif;
+        font-size: 1.8rem;
+        background-color: seagreen;
+        color: white;
+        border-radius: 5px;
+        padding: 5px;
+        cursor: pointer;
+        box-shadow: 4px 4px 10px rgba(0,0,0,0.25),4px 4px 10px rgba(0,0,0,0.25),;
+    }
+}
